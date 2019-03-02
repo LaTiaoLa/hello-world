@@ -1,0 +1,438 @@
+@charset "utf-8";
+/* CSS Document */
+body
+	{
+		margin:0px;
+		padding:0px;
+		background-color:#f4e7bd;
+	}
+h1,h2,h3,h4,h5,h6,span
+	{
+		margin:0px;
+		padding:0px;
+	}
+#headerbg
+	{
+		width:100%;
+		height:309px;
+		float:left;
+		margin:0px;
+		padding:0px;
+		background-image: url(images/headerbg.jpg);
+		background-repeat:repeat-x;
+	}
+#headerblank
+	{
+		width:1004px;
+		height:309px;
+		float: none;
+		margin:0 auto;
+		padding:0px;
+	}
+#header
+	{
+		width:1004px;
+		height:309px;
+		float: left;
+		margin:0px;
+		padding:0px;
+		background-image:url(images/header.gif);
+		background-repeat:no-repeat;
+		
+	}
+#menu
+	{
+		width:385px;
+		height:33px;
+		float: right;
+		margin:133px 51px 0 0;
+		padding:0px;
+	}
+#menu ul
+	{
+		width:385px;
+		height:33px;
+		float:left;
+		margin:0px;
+		padding:0px;
+		display:block;
+	}
+#menu ul li
+	{
+		width:76px;
+		height:33px;
+		float:left;
+		margin:0 1px 0 0;
+		padding:0px;
+		display:block;		
+	}
+#menu ul li a.menu
+	{
+		width:76px;
+		height:26px;
+		float:left;
+		margin:0px;
+		padding:7px 0 0 0;
+		font-family:Arial;
+		font-size:13px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		text-decoration:none;
+		background-image:url(images/menu.jpg);
+		background-repeat:no-repeat;
+	}	
+
+#login
+	{
+		width:649px;
+		height:106px;
+		float: right;
+		margin:35px 53px 0 0;
+		padding:0px;
+		background-image:url(images/loginbg.jpg);
+		background-repeat:no-repeat;
+	}
+#logintxtblank
+	{
+		width:622px;
+		height:89px;
+		float: left;
+		margin:0px;
+		padding:17px 0 0 27px;
+	}
+#loginheading
+	{
+		width:622px;
+		height:21px;
+		float: left;
+		margin:0 0 8px 0;
+		padding:0px;
+		font-family:Georgia;
+		font-size:20px;
+		color:#000;
+	}
+#loginheading h4
+	{
+		width:622px;
+		height:21px;
+		float: left;
+		margin:0px;
+		padding:0px;
+		font-family:Georgia;
+		font-size:20px;
+		font-weight:normal;
+		color:#000;
+	}
+#username
+	{
+		width:65px;
+		height:14px;
+		float: left;
+		margin:0px;
+		padding:7px 0 0 0;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+	}
+#input
+	{
+		width:197px;
+		height:21px;
+		float: left;
+		margin:0px;
+		padding:0px;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+	}
+#password
+	{
+		width:52px;
+		height:14px;
+		float:left;
+		margin:0px;
+		padding:7px 0 0 23px;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+	}
+#input02
+	{
+		width:197px;
+		height:21px;
+		float: left;
+		margin:0px;
+		padding:0px;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+	}
+.input
+	{
+		width:181px;
+		height:17px;
+		float: left;
+		margin:0px;
+		padding:4px 0 0 16px;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+		border:solid 1px #ead28b;
+		background-color:#ead28b;
+	}
+#loginbutton
+	{
+		width:50px;
+		height:23px;
+		float:left;
+		margin:0 0 0 20px;
+		padding:0px;
+	}
+.login
+	{
+		width:50px;
+		height:19px;
+		float:left;
+		margin:0px;
+		padding:4px 0 0 0;
+		font-family:Arial;
+		font-size:10px;
+		color:#000;
+		text-align:center;
+		text-decoration:none;
+		background-image:url(images/login.jpg);
+		background-repeat:no-repeat;
+	}
+
+#member
+	{
+		width:135px;
+		height:14px;
+		float: left;
+		margin:9px 0 0 0;
+		padding:0px;
+		font-family: Arial;
+		font-size:13px;
+		color:#ab8e4e;
+	}
+#register
+	{
+		width:200px;
+		height:14px;
+		float: left;
+		margin:9px 0 0 0;
+		padding:0px;
+		font-family: Arial;
+		font-size:13px;
+		color:#943415;
+	}
+.register
+	{
+		font-family: Arial;
+		font-size:13px;
+		color:#943415;
+		text-decoration:none;
+	}
+.register:hover
+	{
+		text-decoration: underline;
+	}	
+
+/*--------------------------------------------------------------CONTENTPART-------------------------------------------------END--------------------------------------------------------------*/	
+#footer
+	{
+		width:100%;
+		height:120px;
+		float:left;
+		background-image:url(images/footerbg.jpg);
+		background-repeat:repeat-x;
+	}
+
+#footerlinks
+	{
+		width:100%;
+		margin-top:25px;
+		font-family:Arial;
+		font-size:20px;
+		font-weight:bold;
+		color:#ee7e1f;
+		text-align:center;
+		text-decoration:none;
+	}
+.footerlinks
+	{
+		font-family:Arial;
+		font-size:20px;
+		font-weight:bold;
+		color:#ee7e1f;
+		text-align:center;
+		text-decoration:none;
+	}
+.footerlinks:hover
+	{
+		text-decoration: underline;	
+	}
+#copyrights
+	{
+		width:100%;
+		float:left;
+		margin-top: 5px;
+		font-family:Arial;
+		font-size:20px;
+		color:#401400;
+		text-align:center;
+	}
+	#f1{
+    width:469px;
+    height: 649px;
+		float:left;
+		margin:0px;
+		padding:34px 0 33px 34px;
+    border:none;
+  }
+
+
+/*导航分页样式*/
+/*#content{
+	height: 865px;
+}
+#contentleft{
+	height: 865px;
+	width: 70%;
+	background-color: deepskyblue;
+	float: left；
+}
+#contentright{
+	height: 865px;
+	width: 30%;
+	background-color: lightseagreen;
+	float: left;
+}*/
+
+
+
+
+
+
+
+
+	#content{
+            /*border: red solid 2px;*/
+            /*当子元素全部浮动后，父元素会出现塌陷，所以最好给父元素设置高度*/
+            height: 865px;
+			width: 900px;
+			margin: 10px auto;
+			
+            /*text-align: center;*/
+        }
+		#projrctpic{
+			height: 200px;
+			width: 100%;
+			margin: 0 0 10px 0;
+			border-style: dashed;
+			border-width: 1px;
+		}
+		#projrctpic img{
+			height: 200px;
+			width: 100%;
+
+		}
+		#content1txt{
+			float: left;
+			font-size: 25px;
+			color:#000;
+			text-align:center;
+			text-decoration:none;
+			font-weight: bold;
+		}
+		#content1txt:hover{
+			float: left;
+			font-size: 25px;
+			color:#943415;
+			text-decoration: underline;
+		}
+		
+		#content1pic img{
+			height: 200px;
+			width: 200px;
+			float: left;
+		}
+		#content2pic img{
+			height: 200px;
+			width: 200px;
+			float: left;
+		}
+		#content3pic img{
+			height: 200px;
+			width: 200px;
+			float: left;
+		}
+		#content4pic img{
+			height: 200px;
+			width: 200px;
+			float: left;
+		}
+		.a1{
+			text-decoration: none;
+			color: gray;
+		}
+		.a1:hover{
+			text-decoration: underline;
+		}
+		.a2{
+			text-decoration: none;
+			color: gray;
+		}
+		.a2:hover{
+			text-decoration: underline;
+		}
+		#extra{
+  position: fixed;
+  bottom:50px;
+  right: 50px ;
+  width: 50px;
+  height: 50px;
+}
+#logInfo{
+	
+	float: right;
+	font-size: 25px;
+}
+	 #menu ul li ul{
+		 margin: 0 auto;
+		 display: none;
+		 position:relative;
+		 
+	 }
+   #menu ul li ul li{
+	   float:none;
+	   height: 32px;
+	   width:75px;
+	   line-height: 35px;
+       margin-right: 0px;
+	   padding-right: 0px;
+		background-image:url(images/menu.jpg);
+		
+		background-repeat:no-repeat;	
+		
+	   text-align: center;
+	   z-index: 10;
+   }
+   #menu ul li ul li a{
+	   font-size: 16px;
+	   text-decoration: none;
+	   color:white;
+	   
+   }
+  
+#menu ul li ul {border:1px solid #ccc;}
+
+
+#menu ul li ul li a:hover {  color:white;}
+#menu ul li ul { display:none;border: none;}
+#menu ul li:hover ul { display:block;}
+#re_hint{
+	color: red;
+	font-style: italic;
+}

@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<!--<html xmlns="http://www.w3.org/1999/xhtml">-->
+<head>
+<title>健康生活</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="images/icon.ico" />
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/js.js"></script>
+</head>
+<body>
+
+ 
+  <div id="extra"><a href="#headerbg"><img src="images/returntop.png" style="width: 50px;height: 50px"></a></div>
+   <!--这是头部-->
+<div id="headerbg">
+  <p id="logInfo"></p>
+  <div id="headerblank">
+    <div id="header">
+
+      <div id="menu">
+        <ul>
+          <li><a href="index.html" class="menu">首页</a></li>
+          <li><a href="food.html" class="menu">饮食</a>
+          <ul>
+            <li><a href="#">健康食品</a></li>
+            <li><a href="#">饮食规律</a></li>
+            <li><a href="#">饮食禁忌</a></li>
+          </ul></li>
+          <li><a href="sport.html" class="menu">运动</a>
+          <ul>
+            <li><a href="#">相关知识</a></li>
+            <li><a href="#">准备热身</a></li>
+            <li><a href="#">预防受伤</a></li>
+          </ul></li>
+          <li><a href="health.html" class="menu">健康常识</a>
+          <li><a href="mental.html" class="menu">心理健康 </a>
+          <ul>
+            <li><a href="#">相关知识</a></li>
+            <li><a href="#">预防</a></li>
+            <li><a href="#">治愈</a></li>
+          </ul></li>
+        </ul>
+      </div>
+      <div id="login">
+        <div id="logintxtblank">
+          <div id="loginheading">
+            <h4>用户登录</h4>
+          </div>
+          <div id="username">用户名:</div>
+          <div id="input">
+            <label>
+            <input name="textfield" type="text" class="input" id="textfield" />
+            </label>
+          </div>
+          <div id="password">密码:</div>
+          <div id="input02">
+            <label>
+            <input name="textfield2" type="password" class="input" id="textfield2"/>
+            </label>
+          </div>
+          <div id="loginbutton"><input type="button" onclick="denglu()" class="denglu" value="登录"/></div>
+          <div id="member"><a href="modify.html" class="register">更改密码</a> </div>
+          <div id="register"><a href="register1.html" class="register">现在注册</a><span id="re_hint"></span></div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--这是中间内容-->
+<div id="contentbg">
+  <div id="contentblank">
+    <div id="content">
+
+      <!--内容左侧-->
+      <div id="contentleft">
+        <div id="leftheading">
+          <h4>内容精选</h4>
+        </div>
+        <div class="lefttxtblank">
+          <div class="lefticon">1</div>
+          <div class="leftboldtxtblank">
+            <div class="leftboldtxt">3大食物能杀死癌细胞</div>
+            <div class="lefttxt">发布日期：2017-06-11</div>
+          </div>
+          <div class="leftnormaltxt">茄子、苦瓜、海带、地瓜、南瓜、麦麸、萝卜、猕猴桃</div>
+          <div class="morebutton"><a target="frame" href="lefttxtblank.html" class="more">阅读更多 </a></div>
+        </div>
+        <div class="lefttxtblank02">
+          <div class="lefticon">2</div>
+          <div class="leftboldtxtblank">
+            <div class="leftboldtxt">一图读懂运动的几大误区</div>
+            <div class="lefttxt">发布日期：2017-06-11</div>
+          </div>
+          <div class="leftnormaltxt">如何正确运动</div>
+          <div class="morebutton"><a target="frame" href="lefttxtblank02.html" class="more">阅读更多</a></div>
+        </div>
+        <div class="lefttxtblank02">
+          <div class="lefticon">3</div>
+          <div class="leftboldtxtblank">
+            <div class="leftboldtxt">健康小常识</div>
+            <div class="lefttxt">发布日期：2017-06-11</div>
+          </div>
+          <div class="leftnormaltxt">你不知道的小知识</div>
+          <div class="morebutton"><a target="frame" href="lefttxtblank03.html" class="more">阅读更多</a></div>
+        </div>
+        <div id="leftnavheading">
+          <h4>资料</h4>
+        </div>
+        <div id="leftnav">
+          <ul>
+            <li><a target="frame" href="lefttxtblank.html" class="leftnav">8大食物能杀死癌细胞</a></li>
+            <li><a target="frame" href="lefttxtblank02.html" class="leftnav">一图读懂运动的十大误区</a></li>
+            <li><a target="frame" href="lefttxtblank03.html" class="leftnav">健康小常识</a></li>
+          </ul>
+        </div>
+        <div style="margin-top:20px;float: left;width: 200px;height: 160px;">
+            <input name="sex" type="radio" id="male" checked/>男&nbsp;&nbsp;<input name="sex" type="radio" id="female"/>女
+            <div id="count1" style="margin-top: 10px;color:#b22d00">体重(kg)：<input class="in" id="in1" type="text"/></div>
+            <div id="count2" style="margin-top: 10px;color:#b22d00">身高(cm)：<input class="in" id="in2" type="text"/><input type="button" onclick="result()" style="float:none;color:#ee7e1f;margin-top: 10px" value="确认"></div>
+            <div><p id="result"></p></div>
+        </div>
+      </div>
+      <!--内容  框架在这-->
+      <iframe  name="frame" id="f1" src="mainContent.html"  scrolling="no"></iframe>
+      <!--内容右侧-->
+      <div id="contentright">
+        <div class="rightheading">
+          <h4>照片库</h4>
+        </div>
+        <div id="galleryblank">
+          <div id="rightpic"><a target="frame" href="viewmore1.html" class="rightpic"></a></div>
+          <div id="rightpic02"><a target="frame" href="viewmore1.html" class="rightpic02"></a></div>
+          <div id="rightpic03"><a target="frame" href="viewmore1.html" class="rightpic03"></a></div>
+          <div class="viewbutton"><a target="frame" href="viewmore1.html" class="view">更多图片</a></div>
+          <div class="rightheading">
+            <h4>温馨提示</h4>
+          </div>
+          <div class="righttxt"><span class="rightboldtxt">1.腾不出时间睡觉的人,迟早会腾出时间来生病.</div>
+          <div class="righttxt"><span class="rightboldtxt">2.真正的快乐,是对生活乐观,对工作愉快,对事业兴奋.</div>
+          <div class="righttxt"><span class="rightboldtxt">3.保持健康,这是对自己的义务,甚至也是对社会的义务.</div>
+          <div class="righttxt"><span class="rightboldtxt">4.忽视健康,就等于拿自己的生命开玩笑.</div><br>
+          <div class="viewbuttonbot"><a target="frame" href="readmore.html" class="view">阅读更多</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--这是底部-->
+<div id="footer">
+      <div id="footerlinks">
+        <a href="index.html" class="footerlinks">首页</a> | 
+        <a href="#" class="footerlinks">关于我们</a> | 
+        <a href="#" class="footerlinks">建议</a> |
+        <a href="#" class="footerlinks">发展</a> | 
+        <a href="#" class="footerlinks">联系我们</a></div>
+      <div id="copyrights">地址: 青岛市宁夏路 308 号 邮编: 266071 <br> copyright@2017 孔德旺 魏志聪 All Rights Reserved</div>
+    </div>
+</body>
+</html>

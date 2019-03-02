@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/style-details.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.2.3.min.js"></script>
+</head>
+<script>
+    function write(){
+        document.getElementById("d1").setAttribute("style","display:block");
+        $("#p1").fadeIn("slow");
+        
+
+    }
+    function begin() {
+        $("#p1").fadeOut("fast");
+        setInterval("write()",200);
+    }
+
+</script>
+<body onload="begin()">
+  <div id="contentmid">
+        <div class="midheading">
+          <h2>3大食物能杀死癌细胞</h2>
+        </div>
+        <div class="midtext" id="d1" style="display: none"><p id="p1">
+(1)茄子：“霜打茄子”是好药<br>
+　　中药许多方剂及民间验方中，时常使用“秋后老茄子”、“霜打茄子”。越来越多证据表明，茄子具有抗癌功能。曾有试验从茄子中提取的一种无毒物质，用于治疗胃癌、子宫颈癌等收到良效。另外，茄子中含有龙葵碱、葫芦素、水苏碱、胆碱、紫苏甙、茄色甙等多种生物碱物质，其中龙葵碱、葫芦素被证实具有抗癌能力，茄花、茄蒂、茄根、茄汁皆为良药，古代就有秋茄根治疗肿瘤的记载。茄子还含有丰富的营养成分，除维生素A、C偏低外，其他维生素和矿物质几乎跟西红柿差不多，而蛋白质和钙甚至比西红柿高3倍。<br>
+(2)苦瓜：李时珍称其为“一等瓜”<br>
+　　苦瓜在民间受到的待遇两极分化严重，不少人很“好”这一口，也有人对其敬而远之。但真正给它“好身份”的却是明代大医学家李时珍，他称其为“一等瓜”，是不可多得的抗癌瓜。西医更证明，苦瓜的抗癌功效来自一种类奎宁蛋白，它是一种能激活免疫细胞的活性蛋白，通过免疫细胞做“二传手”，将癌细胞或其他不正常的细胞杀掉。苦瓜种子中含有一种蛋白酶抑制剂，能抑制肿瘤细胞分泌蛋白酶，从而抑制癌细胞的侵袭和转移。<br>
+(3)海带：可预防乳腺癌和甲状腺肿瘤<br>
+　　海带中药名为“昆布”，可预防乳腺癌和甲状腺肿瘤。海带富含碘，能防“大脖子”病在中国已经妇孺皆知，实际上，海带还有其他诸多“本领”，它含的海藻酸钠与具致癌作用的锶、镉有很强的结合能力，并将它们排出体外;海带可选择性杀灭或抑制肠道内能够产生致癌物的细菌，所含的纤维还能促进胆汁酸和胆固醇的排出;海带提取物对各种癌细胞有直接抑制作用。
+
+</p>
+        </div>
+      </div>
+</body>
+</html>

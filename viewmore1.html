@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/style-details.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="galleria/galleria-1.4.2.min.js"></script>
+<script src="galleria/themes/classic/galleria.classic.min.js"></script>
+</head>
+<style>
+	.midpic02{
+		width: 460px;
+		height: 500px;
+		background-color: black;
+		margin: 0 auto;	
+	}
+</style>
+<script>
+    	$(document).ready(function(){
+			Galleria.run(".midpic02",{autoplay:1000,transition:'slide'});
+		});
+    </script>
+<body>
+  <div id="contentmid">
+        <div class="midheading">
+          <h2>图片欣赏</h2>
+        </div>
+        <div class="midpic02">
+            <img src="images/rightpic.jpg">
+            <img src="images/rightpic07.jpg">
+            <img src="images/rightpic03.jpg">
+            <img src="images/rightpic04.jpg">
+            <img src="images/rightpic05.jpg">
+            <img src="images/rightpic06.jpg">
+            <img src="images/rightpic10.jpg">
+            <img src="images/rightpic08.jpg">
+        </div>
+      </div>
+</body>
+</html>

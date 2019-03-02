@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/style-details.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.2.3.min.js"></script>
+</head>
+<script>
+    function write(){
+        document.getElementById("d1").setAttribute("style","display:block");
+        $("#p1").fadeIn("slow");
+        
+
+    }
+    function begin() {
+        $("#p1").fadeOut("fast");
+        setInterval("write()",200);
+    }
+
+</script>
+<body onload="begin()">
+  
+      <div id="contentmid">
+        <div class="midheading">
+          <h2>温馨提示</h2>
+        </div>
+        <div class="midtext" id="d1" style="display:none"><p id="p1">
+<br>1.腾不出时间睡觉的人,迟早会腾出时间来生病.  <br> 
+<br>2.建立在健康基础之上的财富`地位`幸福`快乐才能持久,最终实行完美人生. <br>
+<br>3.科学家向老年人提出长寿保健五要点:把住你的嘴`迈开你的腿`开动你的脑`保护你的肺`平衡你的心.      <br>
+<br>4.只有早睡早起的人,才能拥有一个健康人生. <br>
+<br>5.运动可以打通经络,强化心脏功能,提高清除体内垃圾的能力. <br>
+<br>6.发怒时身体会产生气,所以称之为生气.但生气并不单指发出来的脾气,有些闷在心里的气也会对人体造成伤害.    <br>   
+<br>7.百岁老人三字经:敲胆经,早睡觉,压心包,不生气,肠干净.   <br>
+<br>8.最简单的消气办法就是用热水泡脚. <br>
+<br>9.生的动物性食物,是人体细菌感染的来源之一.   <br>
+<br>10.肥胖不是吃的太多,而是排的太少. <br>
+<br>11.许多疾病的根源都和早年的生活习惯有直接而密切的关系.   <br>
+<br>12.任何时间只要有机会,而且想睡,就尽量睡.   <br>
+<br>13.身体想睡,你不让睡,身体已经不想睡了. <br>
+</p>
+        </div>
+      </div>
+</body>
+</html>

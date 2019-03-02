@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aaa</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/register1.js"></script>
+</head>
+<body>
+    <div id="hd"><a href="index.html"><img src="images/back.png" title="返回主页"/></a></div>
+    <div id="out">
+    
+    <div id="reg">
+    <p>注册账号</p>
+    </div>
+
+    <div id="box">
+    <form onsubmit="return validate()" action="index.html">
+    <label for="name">用 户 名:</label>
+    <input id="name" class="c1" type="text" onblur="check()" minlength="1"  maxlength="12"/><br><span id="p1" class="hint"></span><br><br>
+
+    <label for="pwd">密&nbsp;&nbsp;码:</label>
+    <input type="password" id="pwd" class="c1" onblur="check1()"  minlength="6"  maxlength="16"/><br><span id="p2" class="hint"></span><br><br>
+
+    <label for="pwd1">确认密码:</label>
+    <input type="password" id="pwd1" class="c1" onblur="check2()" minlength="6" maxlength="16"/><br><span id="p3" class="hint"></span><br><br>
+
+    <label for="male">性&nbsp;&nbsp;别:&nbsp; </label>
+    <input id="male" name="gender" type="radio" checked/> 男&nbsp;&nbsp;&nbsp;<input id="female" name="gender" type="radio"/>女&nbsp;&nbsp;<br><br>
+
+    <label for="email">邮&nbsp;&nbsp;箱:</label>
+    <input type="email"  id="email"class="c1"/><br><span id="p4" class="hint"></span><br><br>
+
+    <label for="tel">电&nbsp;&nbsp;话:</label>
+    <input type="text" class="c1" id="tele" pattern="1[34578][0-9]{9}" onblur="telCheck()"/><br><span id="p5" class="hint"></span><br><br>
+    <input id="agree" type="checkbox" checked/>同意本网站的所有协议<br><br>
+    <input id="_register" type="submit" class="c1" value="立即注册"/><br><span id="p6" class="hint"></span>
+    </form>
+    </div>
+
+    </div>
+    
+    <div id="foot">
+    <footer style="text-align: center;">
+        <p style="font-size: 16px;color: grey">Copyright © 孔德旺 魏志聪 All Rights Reserved</p>
+    </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/style-details.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.2.3.min.js"></script>
+</head>
+<script>
+    function write(){
+        document.getElementById("d1").setAttribute("style","display:block");
+        $("#p1").fadeIn("slow");
+        
+
+    }
+    function begin() {
+        $("#p1").fadeOut("fast");
+        setInterval("write()",200);
+    }
+
+</script>
+<body onload="begin()">
+  <div id="contentmid">
+        <div class="midheading">
+          <h2>健康小常识</h2>
+        </div>
+        <div class="midtext" id="d1" style="display: none"><p id="p1">
+(1)饭后吃水果<br>
+　　很多人都喜欢饭后吃点水果，这是一种错误的生活习惯。食物进入胃以后，需要经过1到2小时的消化，如果饭后立即吃水果，就会被先前吃进的食物阻挡，致使水果不能正常地消化。时间长了，就会引起腹胀、腹泻或便秘等症状。<br>
+(2)饭后饮浓茶<br>
+　　饭后喝茶，会冲淡胃液，影响食物的消化。另外，茶叶中含有大量鞣酸，饭后喝茶，就会使胃中没来得及消化的蛋白质同鞣酸结合在一起形成不易消化的沉淀物，影响蛋白质的吸收。茶叶还会妨碍铁元素的吸收，长期如此甚至能够引发缺铁性贫血。<br>
+(3)饭后吸烟<br>
+　　饭后吸烟的危害比平时大10倍！这是由于进食后的消化道血液循环增多，致使烟中有害成分大量吸收，损害肝脏、大脑及心脏血管，引起这些方面的疾病。<br>
+(4)饭后洗澡<br>
+　　民间有句俗话叫“饱洗澡饿剃头”，这也是一种不正确的生活习惯。饭后洗澡，体表血流量就会增加，胃肠道的血流量便会相应减少，从而使肠胃的消化功能减弱，引起消化不良。<br>
+(5)饭后放松裤带<br>
+　　很多人吃饭过量后感觉撑得慌，常常放松皮带扣，这样虽然肚子舒服了，但是会造成腹腔内压的下降，逼迫胃部下垂。长此以往，就会患上真的胃下垂。<br>
+(6)饭后散步<br>
+　　饭后“百步走”，非但不能活“九十九”，还会因为运动量的增加，影响消化道对营养物质的吸收。尤其是老年人，心脏功能减退、血管硬化，餐后散步多会出现血压下降等现象。<br>
+
+   </p>     
+        </div>
+      </div>
+</body>
+</html>
